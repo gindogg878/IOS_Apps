@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F2009" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cubs" translatesAutoresizingMaskIntoConstraints="NO" id="Eiw-dw-hsL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LwW-VF-wdF">
+                                <rect key="frame" x="176" y="20" width="25" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mtx-Yg-BL9">
+                                <rect key="frame" x="176" y="289" width="25" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ab9-nw-DFn">
+                                <rect key="frame" x="139" y="49" width="98" height="30"/>
+                                <state key="normal" title="Next Question"/>
+                                <connections>
+                                    <action selector="showNextQuestion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ONE-Z3-XpM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W3W-k3-n7O">
+                                <rect key="frame" x="142" y="318" width="93" height="30"/>
+                                <state key="normal" title="Show Answer"/>
+                                <connections>
+                                    <action selector="showAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wrx-MH-2B5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LwW-VF-wdF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="7dv-Hh-z51"/>
+                            <constraint firstItem="Mtx-Yg-BL9" firstAttribute="top" secondItem="ab9-nw-DFn" secondAttribute="bottom" constant="210" id="M6c-0B-4up"/>
+                            <constraint firstItem="Mtx-Yg-BL9" firstAttribute="centerX" secondItem="ab9-nw-DFn" secondAttribute="centerX" id="SXg-Ny-u9h"/>
+                            <constraint firstItem="W3W-k3-n7O" firstAttribute="centerX" secondItem="ab9-nw-DFn" secondAttribute="centerX" id="YDd-HT-h9l"/>
+                            <constraint firstItem="W3W-k3-n7O" firstAttribute="top" secondItem="Mtx-Yg-BL9" secondAttribute="bottom" constant="8" id="ZXc-no-EL6"/>
+                            <constraint firstItem="LwW-VF-wdF" firstAttribute="centerX" secondItem="ab9-nw-DFn" secondAttribute="centerX" id="q01-6A-0mJ"/>
+                            <constraint firstItem="ab9-nw-DFn" firstAttribute="top" secondItem="LwW-VF-wdF" secondAttribute="bottom" constant="8" id="w1k-oR-Kf5"/>
+                            <constraint firstItem="LwW-VF-wdF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="xrc-sn-lgH"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="answerLabel" destination="Mtx-Yg-BL9" id="d8p-TZ-Kfj"/>
+                        <outlet property="questionLabel" destination="LwW-VF-wdF" id="E9Q-u8-yD6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="260.5" y="428.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cubs" width="320" height="480"/>
+    </resources>
+</document>

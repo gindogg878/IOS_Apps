@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		695812351E3BE0CE0042B602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695812341E3BE0CE0042B602 /* AppDelegate.swift */; };
+		695812371E3BE0CE0042B602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695812361E3BE0CE0042B602 /* ViewController.swift */; };
+		6958123A1E3BE0CE0042B602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695812381E3BE0CE0042B602 /* Main.storyboard */; };
+		6958123C1E3BE0CE0042B602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6958123B1E3BE0CE0042B602 /* Assets.xcassets */; };
+		6958123F1E3BE0CE0042B602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6958123D1E3BE0CE0042B602 /* LaunchScreen.storyboard */; };
+		6958124A1E3BE0CF0042B602 /* WordReverserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695812491E3BE0CF0042B602 /* WordReverserTests.swift */; };
+		695812551E3BE0CF0042B602 /* WordReverserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695812541E3BE0CF0042B602 /* WordReverserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		695812461E3BE0CF0042B602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 695812291E3BE0CE0042B602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 695812301E3BE0CE0042B602;
+			remoteInfo = WordReverser;
+		};
+		695812511E3BE0CF0042B602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 695812291E3BE0CE0042B602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 695812301E3BE0CE0042B602;
+			remoteInfo = WordReverser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		695812311E3BE0CE0042B602 /* WordReverser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordReverser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		695812341E3BE0CE0042B602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		695812361E3BE0CE0042B602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		695812391E3BE0CE0042B602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6958123B1E3BE0CE0042B602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6958123E1E3BE0CE0042B602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		695812401E3BE0CE0042B602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		695812451E3BE0CE0042B602 /* WordReverserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordReverserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		695812491E3BE0CF0042B602 /* WordReverserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordReverserTests.swift; sourceTree = "<group>"; };
+		6958124B1E3BE0CF0042B602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		695812501E3BE0CF0042B602 /* WordReverserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordReverserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		695812541E3BE0CF0042B602 /* WordReverserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordReverserUITests.swift; sourceTree = "<group>"; };
+		695812561E3BE0CF0042B602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6958122E1E3BE0CE0042B602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695812421E3BE0CE0042B602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6958124D1E3BE0CF0042B602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		695812281E3BE0CE0042B602 = {
+			isa = PBXGroup;
+			children = (
+				695812331E3BE0CE0042B602 /* WordReverser */,
+				695812481E3BE0CF0042B602 /* WordReverserTests */,
+				695812531E3BE0CF0042B602 /* WordReverserUITests */,
+				695812321E3BE0CE0042B602 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		695812321E3BE0CE0042B602 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				695812311E3BE0CE0042B602 /* WordReverser.app */,
+				695812451E3BE0CE0042B602 /* WordReverserTests.xctest */,
+				695812501E3BE0CF0042B602 /* WordReverserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		695812331E3BE0CE0042B602 /* WordReverser */ = {
+			isa = PBXGroup;
+			children = (
+				695812341E3BE0CE0042B602 /* AppDelegate.swift */,
+				695812361E3BE0CE0042B602 /* ViewController.swift */,
+				695812381E3BE0CE0042B602 /* Main.storyboard */,
+				6958123B1E3BE0CE0042B602 /* Assets.xcassets */,
+				6958123D1E3BE0CE0042B602 /* LaunchScreen.storyboard */,
+				695812401E3BE0CE0042B602 /* Info.plist */,
+			);
+			path = WordReverser;
+			sourceTree = "<group>";
+		};
+		695812481E3BE0CF0042B602 /* WordReverserTests */ = {
+			isa = PBXGroup;
+			children = (
+				695812491E3BE0CF0042B602 /* WordReverserTests.swift */,
+				6958124B1E3BE0CF0042B602 /* Info.plist */,
+			);
+			path = WordReverserTests;
+			sourceTree = "<group>";
+		};
+		695812531E3BE0CF0042B602 /* WordReverserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				695812541E3BE0CF0042B602 /* WordReverserUITests.swift */,
+				695812561E3BE0CF0042B602 /* Info.plist */,
+			);
+			path = WordReverserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		695812301E3BE0CE0042B602 /* WordReverser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 695812591E3BE0CF0042B602 /* Build configuration list for PBXNativeTarget "WordReverser" */;
+			buildPhases = (
+				6958122D1E3BE0CE0042B602 /* Sources */,
+				6958122E1E3BE0CE0042B602 /* Frameworks */,
+				6958122F1E3BE0CE0042B602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordReverser;
+			productName = WordReverser;
+			productReference = 695812311E3BE0CE0042B602 /* WordReverser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		695812441E3BE0CE0042B602 /* WordReverserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6958125C1E3BE0CF0042B602 /* Build configuration list for PBXNativeTarget "WordReverserTests" */;
+			buildPhases = (
+				695812411E3BE0CE0042B602 /* Sources */,
+				695812421E3BE0CE0042B602 /* Frameworks */,
+				695812431E3BE0CE0042B602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				695812471E3BE0CF0042B602 /* PBXTargetDependency */,
+			);
+			name = WordReverserTests;
+			productName = WordReverserTests;
+			productReference = 695812451E3BE0CE0042B602 /* WordReverserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6958124F1E3BE0CF0042B602 /* WordReverserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6958125F1E3BE0CF0042B602 /* Build configuration list for PBXNativeTarget "WordReverserUITests" */;
+			buildPhases = (
+				6958124C1E3BE0CF0042B602 /* Sources */,
+				6958124D1E3BE0CF0042B602 /* Frameworks */,
+				6958124E1E3BE0CF0042B602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				695812521E3BE0CF0042B602 /* PBXTargetDependency */,
+			);
+			name = WordReverserUITests;
+			productName = WordReverserUITests;
+			productReference = 695812501E3BE0CF0042B602 /* WordReverserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		695812291E3BE0CE0042B602 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Gino T";
+				TargetAttributes = {
+					695812301E3BE0CE0042B602 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PMUCMAM3LG;
+					};
+					695812441E3BE0CE0042B602 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PMUCMAM3LG;
+						TestTargetID = 695812301E3BE0CE0042B602;
+					};
+					6958124F1E3BE0CF0042B602 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PMUCMAM3LG;
+						TestTargetID = 695812301E3BE0CE0042B602;
+					};
+				};
+			};
+			buildConfigurationList = 6958122C1E3BE0CE0042B602 /* Build configuration list for PBXProject "WordReverser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 695812281E3BE0CE0042B602;
+			productRefGroup = 695812321E3BE0CE0042B602 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				695812301E3BE0CE0042B602 /* WordReverser */,
+				695812441E3BE0CE0042B602 /* WordReverserTests */,
+				6958124F1E3BE0CF0042B602 /* WordReverserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6958122F1E3BE0CE0042B602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6958123F1E3BE0CE0042B602 /* LaunchScreen.storyboard in Resources */,
+				6958123C1E3BE0CE0042B602 /* Assets.xcassets in Resources */,
+				6958123A1E3BE0CE0042B602 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695812431E3BE0CE0042B602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6958124E1E3BE0CF0042B602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6958122D1E3BE0CE0042B602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695812371E3BE0CE0042B602 /* ViewController.swift in Sources */,
+				695812351E3BE0CE0042B602 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695812411E3BE0CE0042B602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6958124A1E3BE0CF0042B602 /* WordReverserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6958124C1E3BE0CF0042B602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695812551E3BE0CF0042B602 /* WordReverserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		695812471E3BE0CF0042B602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 695812301E3BE0CE0042B602 /* WordReverser */;
+			targetProxy = 695812461E3BE0CF0042B602 /* PBXContainerItemProxy */;
+		};
+		695812521E3BE0CF0042B602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 695812301E3BE0CE0042B602 /* WordReverser */;
+			targetProxy = 695812511E3BE0CF0042B602 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		695812381E3BE0CE0042B602 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				695812391E3BE0CE0042B602 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6958123D1E3BE0CE0042B602 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6958123E1E3BE0CE0042B602 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		695812571E3BE0CF0042B602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		695812581E3BE0CF0042B602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6958125A1E3BE0CF0042B602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordReverser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gindogg878.WordReverser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6958125B1E3BE0CF0042B602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordReverser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gindogg878.WordReverser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6958125D1E3BE0CF0042B602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WordReverserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gindogg878.WordReverserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordReverser.app/WordReverser";
+			};
+			name = Debug;
+		};
+		6958125E1E3BE0CF0042B602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WordReverserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gindogg878.WordReverserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordReverser.app/WordReverser";
+			};
+			name = Release;
+		};
+		695812601E3BE0CF0042B602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WordReverserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gindogg878.WordReverserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WordReverser;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		695812611E3BE0CF0042B602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WordReverserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gindogg878.WordReverserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WordReverser;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6958122C1E3BE0CE0042B602 /* Build configuration list for PBXProject "WordReverser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695812571E3BE0CF0042B602 /* Debug */,
+				695812581E3BE0CF0042B602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		695812591E3BE0CF0042B602 /* Build configuration list for PBXNativeTarget "WordReverser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6958125A1E3BE0CF0042B602 /* Debug */,
+				6958125B1E3BE0CF0042B602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6958125C1E3BE0CF0042B602 /* Build configuration list for PBXNativeTarget "WordReverserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6958125D1E3BE0CF0042B602 /* Debug */,
+				6958125E1E3BE0CF0042B602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6958125F1E3BE0CF0042B602 /* Build configuration list for PBXNativeTarget "WordReverserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				695812601E3BE0CF0042B602 /* Debug */,
+				695812611E3BE0CF0042B602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 695812291E3BE0CE0042B602 /* Project object */;
+}
